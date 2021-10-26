@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E1A20"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image_view_tape"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tape" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter height in Inches"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/edit_text_inches"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:hint="Inches" />
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#D9ED92"
+        android:fontFamily="sans-serif-light"
+        android:padding="12dp"
+        android:text="Calculate"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/text_view_output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>
